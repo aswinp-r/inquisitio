@@ -37,7 +37,7 @@ function GetQuesstion(password){
 
         }}catch(error){console.log(123);location.reload()}
 
-        }catch(error){console.log(1);location.reload()}
+        }catch(error){location.reload()}
 
         
         data = dataJSON[questionNumber]
